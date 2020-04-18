@@ -1,4 +1,4 @@
-# Overview
+# :chart_with_upwards_trend: Overview
 
 Stocks is a stock trading web application that uses real-time stock data for purchasing and selling stocks. This is a simulator, so no real money is used.Every new user is given $10,000 :dollar: to begin with (of virtual, not real money-sorry!).
 
@@ -7,7 +7,7 @@ Stocks is a stock trading web application that uses real-time stock data for pur
 
 To develop this application, I wrote code in HTML, CSS, and JS for client end and Python (using Flask micro framework) for server end controller and a SQLite database stored locally. Additionally, the web applications uses [IEX API](https://iexcloud.io/) to receive real time stock prices.
 ### Key words
-HTML, CSS, Javascript, Python, Flask, APIs, SQL, SQLite, sessions
+HTML, CSS, Javascript, Python,Jinja , Flask, APIs, SQL, SQLite, sessions
 
 ## Getting Started
 
