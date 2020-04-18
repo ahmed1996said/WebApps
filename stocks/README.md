@@ -6,6 +6,7 @@ Stocks is a stock trading web application that uses real-time stock data for pur
 ## Development
 
 To develop this application, I wrote code in HTML, CSS, and JS for client end and Python (using Flask micro framework) for server end controller and a SQLite database stored locally. Additionally, the web applications uses [IEX API](https://iexcloud.io/) to receive real time stock prices.
+### Key words: haha
 
 ## Getting Started
 
