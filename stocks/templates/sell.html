@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <h1 class="display-3">Sell your stocks</h1><br/>
+    <p class="text-info">Select stock symbol and amount to sell.</p></br/>
+
+    <form action="/sell" method="post">
+
+      <div class="form-group">
+        <label>Stock</label>
+        <select class="form-control" name="stock">
+         <option disabled selected value="">Select</option>
+        {% for symbol in symbols %}}
+          <option>{{symbol}}</option>
+        {% endfor %}
+        </select>
+      </div>
+
+        <div class="col">
+          <input autocomplete="off" autofocus class="form-control" name="shares" placeholder="Amount of shares" type="number">
+        </div>
+    </div>
+    <br/>
+
+        <button class="btn btn-outline-info btn-block" type="submit">Sell</button>
+
+    </form>
+
+    <br/></br>
+    <p class="text-secondary">To look up stock symbols by company name click
+    <a class="text-secondary" href="https://www.marketwatch.com/tools/quotes/lookup.asp" target="_blank">here.</a></p>
+
+
+    <script>
+            document.querySelector("form").onsubmit=function(){
+
+                if(!document.querySelector('select').value){
+                    alert("Please enter a symbol.")
+                    return false;
+                }
+                else if(!document.querySelector('input').value){
+                    alert("Please enter quantity.")
+                    return false;
+                }
+                return true;
+
+            };
+    </script>
+
+{% endblock %}

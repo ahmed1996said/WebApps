@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1 class="display-4">{{symbol}} stock</h1><br/><br/>
+    
+
+    <table class="table table-small">
+      <thead>
+        <tr>
+          <th scope="col">Company name</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{name}}</td>
+          <td>{{price}}</td>
+    </table>
+
+
+
+{% endblock %}

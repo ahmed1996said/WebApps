@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <h1 class="display-3">Buy stocks</h1><br/>
+    <p class="text-info">Enter stock symbol and amount to buy.</p></br/>
+
+    <form action="/buy" method="post">
+      <div class="row">
+        <div class="col">
+          <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Enter Stock Symbol" type="text" onkeyup="this.value = this.value.toUpperCase();">
+        </div>
+
+        <div class="col">
+          <input autocomplete="off" autofocus class="form-control" name="shares" placeholder="Amount of shares" type="number">
+        </div>
+    </div>
+    <br/>
+
+        <button class="btn btn-outline-info btn-block" type="submit">Buy</button>
+
+    </form>
+
+    <br/></br>
+    <p class="text-secondary">To look up stock symbols by company name click
+    <a class="text-secondary" href="https://www.marketwatch.com/tools/quotes/lookup.asp" target="_blank">here.</a></p>
+
+
+    <script>
+            document.querySelector("form").onsubmit=function(){
+
+                if(!document.querySelector('input').value){
+                    alert("Please enter a symbol.")
+                    return false;
+                }
+                return true;
+
+
+            }
+    </script>
+
+{% endblock %}

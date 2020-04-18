@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h1 class="display-3">Quote</h1><br/>
+    <p class="text-info">Enter the stock symbol below to get the most recent price.</p></br/>
+
+    <form action="/quote" method="post">
+      <div class="row">
+        <div class="col">
+          <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Enter Stock Symbol" type="text">
+        </div>
+        <div class="col">
+        <button class="btn btn-info" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <br/></br>
+    <p class="text-secondary">To look up stock symbols by company name click
+    <a class="text-secondary" href="https://www.marketwatch.com/tools/quotes/lookup.asp" target="_blank">here.</a></p>
+
+
+    <script>
+            document.querySelector("form").onsubmit=function(){
+
+                if(!document.querySelector('input').value){
+                    alert("Please enter a symbol.")
+                    return false;
+                }
+                return true;
+
+
+            }
+    </script>
+
+{% endblock %}
