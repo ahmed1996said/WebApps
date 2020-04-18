@@ -17,7 +17,35 @@ run flask
 ```
 
 ## Screenshots
+You may first want to create an account
+![Sign up](stocks/screenshots/register.png?raw=true "signup")
 
+Or, if you already have one, you may log in
+![Login](stocks/screenshots/login.png?raw=true "login")
+
+This is your main dashboard. As you can see, you are initially given a balance of $10,000
+![Dashboard](stocks/screenshots/index.png?raw=true "Dashboard")
+
+You can get a quote of a stock by typing in the stock symbol
+![Quote](stocks/screenshots/quote.png?raw=true "Quote")
+
+The result:
+![Quoted](stocks/screenshots/quoted.png?raw=true "Quoted")
+
+Let's say you want to buy 4 Netflix (NFLX) stocks:
+![Buy](stocks/screenshots/buy.png?raw=true "Buy")
+
+After purchasing 4 Netflix stocks, 5 Google Stocks and 2 Microsoft Stocks our dashboard now looks like this :money_with_wings::
+![Summary](stocks/screenshots/summary.png?raw=true "Summary")
+
+You know what.. let's sell the Microsoft stocks. It was an impulse decision:grimacing: :
+![Sell](stocks/screenshots/sell.png?raw=true "Sell")
+
+Now, lets look at the history page, it shows all of our transactions:
+![History](stocks/screenshots/history.png?raw=true "history")
+
+
+Awesome- now you're a professional in stock trading! :laughing:
 
 
 
