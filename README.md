@@ -9,7 +9,7 @@ To develop this application, I wrote code in HTML, CSS, and JS for client end an
 
 ## Getting Started
 
-To run this Web App, make sure you have [Flask](https://flask.palletsprojects.com/en/1.1.x/, [SQlite](https://www.sqlite.org/index.html) and register for IEXCloud to receive an API key. Once this is done, ensure you:
+To run this Web App, make sure you have [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [SQlite](https://www.sqlite.org/index.html) installed and register for [IEXCloud](https://iexcloud.io/) to receive an API key. Once this is done run the following commands in the stock directory:
 ```
 export API_KEY = <user API key from IEXCloud>
 export FLASK_APP = application.py
