@@ -14,7 +14,7 @@ HTML, CSS, Javascript, Python,Jinja , Flask, APIs, SQL, SQLite, sessions
 To run this Web App, make sure you have [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [SQlite](https://www.sqlite.org/index.html) installed and register for [IEXCloud](https://iexcloud.io/) to receive an API key. Also, the required Python modules is listed on requirements.txt. To run this program, these must be first installed. In terminal run this:
 
 ```
-pip3 install -r requirements.
+pip3 install -r requirements.txt
 ```
 
 Once this is done run the following commands in the stock directory:
