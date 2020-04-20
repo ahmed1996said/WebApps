@@ -11,7 +11,13 @@ HTML, CSS, Javascript, Python,Jinja , Flask, APIs, SQL, SQLite, sessions
 
 ## Getting Started
 
-To run this Web App, make sure you have [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [SQlite](https://www.sqlite.org/index.html) installed and register for [IEXCloud](https://iexcloud.io/) to receive an API key. Once this is done run the following commands in the stock directory:
+To run this Web App, make sure you have [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [SQlite](https://www.sqlite.org/index.html) installed and register for [IEXCloud](https://iexcloud.io/) to receive an API key. Also, a the required modules is listed on requirements.txt. To run this program, these must be installed. In terminal run this:
+
+```
+pip3 install -r requirements.
+```
+
+Once this is done run the following commands in the stock directory:
 ```
 export API_KEY = <user API key from IEXCloud>
 export FLASK_APP = application.py
@@ -47,7 +53,7 @@ Now, lets look at the history page, it shows all of our transactions:
 ![History](screenshots/history.png?raw=true "history")
 
 
-Awesome- now you're a professional in stock trading! :laughing:
+Awesome- you're now a professional in trading stocks! :laughing:
 
 
 
