@@ -14,7 +14,7 @@ HTML, CSS, Javascript,Bootstrap, Python, Jinja , Flask, APIs, SQL, PostgreSQL, s
 ## Screenshots
 
 Once an account is created, we may log in:
-![Login](screenshots/login.png?raw=true "login")
+(screenshots/login.png?raw=true "login")
 
 This is the main page, you can search any books by author, title or ISBN number, let's look for a book about "Steve Jobs":
 ![Main Page](screenshots/index.png?raw=true "main page")
