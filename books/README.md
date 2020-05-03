@@ -1,20 +1,20 @@
-# :closed_book: Overview
+# :book: Overview
 
-Stocks is a stock trading web application that uses real-time stock data for purchasing and selling stocks. This is a simulator, so no real money is used.Every new user is given $10,000 :dollar: to begin with (of virtual, not real money-sorry!).
+This web application has more than 4,000 books stored in which registered users may use the search engine to look get information about the book such as ratings, publish year, author and leave a review for the book.
 
 
-## Development
+## :computer: Development
 
-To develop this application, I wrote code in HTML, CSS, and JS for client end and Python (using Flask micro framework) for server end controller and a remote PostgreSQL database from Heroku.
-
-### Key words
+To develop this application, I wrote code in HTML, CSS, and JS for client end and Python (using Flask micro framework) for server end controller and a remote PostgreSQL database from Heroku. In addition, ratings and other book information were retrieved using Goodreads API, and bookcover images was retrieved from openlibrary.org API.
+ 
+### :key: Key words
 HTML, CSS, Javascript,Bootstrap, Python, Jinja , Flask, APIs, SQL, PostgreSQL, sessions
 
 
-## Screenshots
+## :camera: Screenshots
 
-![login]Once an account is created, we may log in:
-(screenshots/login.png?raw=true "login")
+Once an account is created, we may log in:
+![login](screenshots/login.png?raw=true "login")
 
 
 This is the main page, you can search any books by author, title or ISBN number, let's look for a book about "Steve Jobs":
