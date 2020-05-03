@@ -7,5 +7,5 @@ This repository contains different web applications I developed while self-learn
   - :speech_balloon: /chats   :  an online chatroom where users can create channels and chat with each other in groups (similar to Slack). 
 
 
-# Development :wrench:
+## :wrench: Development 
 I developed these Web Applications with HTML/CSS and Javascript and Bootstrap on the client side, and Python programming for the server end. The applications were developed with different complexities since this is a learning project. But generally, most were developed using Flask microframework, and the more recent projects using Django.
