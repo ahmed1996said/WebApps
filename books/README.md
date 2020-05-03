@@ -29,7 +29,7 @@ The result:
 
 Clicking on the book, we see the book profile including reviews, ratings, book cover and other information:
 
-![Book](screenshots/reveiwing.png?raw=true "Buy")
+![Book](screenshots/reviewing.png?raw=true "Buy")
 
 
 We can post the review and see it appended to the reviews. Users may only review once, so the review form is no longer available now:
