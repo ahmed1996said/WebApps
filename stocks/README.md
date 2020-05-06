@@ -1,5 +1,5 @@
-![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)(www.google.com)
-
+![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)
+<img src="https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg">
 
 # :chart_with_upwards_trend: Overview
 
