@@ -1,4 +1,4 @@
-![heroku-app]("https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg")
+![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)
 
 # :chart_with_upwards_trend: Overview
 
