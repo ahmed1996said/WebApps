@@ -1,6 +1,5 @@
-[![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)](www.google.com)
+[![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)] (www.google.com)
 
-[GitHub](http://github.com)
 
 # :chart_with_upwards_trend: Overview
 
@@ -8,7 +7,6 @@ Stocks is a stock trading web application that uses real-time stock data for pur
 
 
 ## Development
-
 To develop this application, I wrote code in HTML, CSS, and JS for client end and Python (using Flask micro framework) for server end controller and a SQLite database stored locally. Additionally, the web applications uses [IEX API](https://iexcloud.io/) to receive real time stock prices.
 ### Key words
 HTML, CSS, Javascript, Python,Jinja , Flask, APIs, SQL, SQLite, sessions
