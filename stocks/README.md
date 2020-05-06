@@ -1,4 +1,4 @@
-<a href="https://stocks.ahmed-codes.com/" target= "_blank"> <img src="screenshots/runapp.png" width=20%></a>
+<a href="https://stocks.ahmed-codes.com/" target= "_blank"> <img src="screenshots/runapp.png" width=20% height=20%></a>
 
 
 # :chart_with_upwards_trend: Overview
