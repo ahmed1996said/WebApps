@@ -1,5 +1,6 @@
-![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)
+<a href="https://ahmeds-stocks.herokuapp.com/">
 <img src="https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg">
+</a>
 
 # :chart_with_upwards_trend: Overview
 
