@@ -1,4 +1,4 @@
-<a href="https://stocks.ahmed-codes.com/" target="_blank">![run](screenshots/run.png?raw=true width=100)
+<a href="https://stocks.ahmed-codes.com/" target="_blank"> <img src="screenshots/run.png" width=20%>
   </a>
 <br/>
 
