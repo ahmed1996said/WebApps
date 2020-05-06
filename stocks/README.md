@@ -1,5 +1,8 @@
 ![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)
 
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 # :chart_with_upwards_trend: Overview
 
 Stocks is a stock trading web application that uses real-time stock data for purchasing and selling stocks. This is a simulator, so no real money is used.Every new user is given $10,000 :dollar: to begin with (of virtual, not real money-sorry!).
