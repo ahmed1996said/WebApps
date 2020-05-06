@@ -1,4 +1,4 @@
-<a href="https://ahmeds-stocks.herokuapp.com/">
+<a href="https://ahmeds-stocks.herokuapp.com/" target="_blank"> Click to run!
 <img src="https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg">
 </a>
 
