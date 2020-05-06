@@ -1,6 +1,5 @@
-![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)
+[![heroku-app](https://brand.heroku.com/static/media/heroku-logo-stroke.aa0b53be.svg)](www.google.com)
 
-http://github.com - automatic!
 [GitHub](http://github.com)
 
 # :chart_with_upwards_trend: Overview
