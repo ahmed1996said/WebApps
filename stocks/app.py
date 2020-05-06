@@ -37,6 +37,7 @@ db = SQL("sqlite:///finance.db")
 
 
 # Make sure API key is set
+os.environ["API_KEY"]="pk_4f45272c8077484db26ab48c68335e58";
 if not os.environ.get("API_KEY"):
     raise RuntimeError("API_KEY not set")
 
@@ -253,12 +254,6 @@ def sell():
     db.execute("UPDATE users SET cash=:cash where id=:userid",cash=new_balance,userid=session.get("user_id"))
     return redirect("/")
 
-
-
-
-
-
-
 def errorhandler(e):
     """Handle error"""
     if not isinstance(e, HTTPException):
@@ -269,3 +264,9 @@ def errorhandler(e):
 # Listen for errors
 for code in default_exceptions:
     app.errorhandler(code)(errorhandler)
+
+
+
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
